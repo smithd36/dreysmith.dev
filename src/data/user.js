@@ -3,7 +3,7 @@ const INFO = {
 		title: "Reactfolio by Drey S.",
 		name: "Drey S.",
 		email: "drey@dreysmith.dev",
-		logo: "../logo.png",
+		logo: "https://github.com/smithd36/ems-medical-license-manager/assets/90289165/2a2a11f6-7028-47f3-a5c1-65bf011ead79",
 	},
 
 	socials: {
@@ -13,9 +13,9 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full stack web and mobile app developer, and amateur space cowboy.",
+		title: "Full stack web and mobile app developer, IT Specialist, and Computer Science student",
 		description:
-			"Primarily working with the MERN Stack currently, I also have expertise in Python, Java and C++. I am experienced in  building scalable, secure and reliable web applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Hi! I am Drey. Welcome to my corner of the web! I am primarily working with the MERN stack currently, and I have expertise in HTML/CSS, JavaScript, Python and Java. I am experienced in  building scalable, secure and reliable web and mobile applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
 	},
 
 	about: {
@@ -50,10 +50,19 @@ const INFO = {
 		},
 
 		{
+			title: "WeatherGuru Mobile App",
+			description:
+				"A mobile weather application built with React Native, Tailwind CSS, and integrated with the WeatherAPI. The application offers a seamless user interface and functional features, including wind speed, a 7-day forecast, and location-based real-time weather updates.",
+			logo: "https://github.com/smithd36/react-native-tailwind-weather-app/assets/90289165/0fb85876-3dee-4334-8ba0-af92705f1cfd",
+			linkText: "View Project",
+			link: "https://github.com/smithd36/react-native-tailwind-weather-app",
+		},
+
+		{
 			title: "Command Line DBMS (Python)",
 			description:
 				"A comprehensive database management system for the command line. This project was built using Python and SQLite for a group state university project. ",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/javascript/javascript.png",
+			logo: "https://github.com/smithd36/Python-SQLite-CLI-DBMS/assets/90289165/1ac5d0bf-6bf3-4716-9603-b21b322c3aa0",
 			linkText: "View Project",
 			link: "https://github.com",
 		},
@@ -61,10 +70,19 @@ const INFO = {
 		{
 			title: "Personal Portfolio (this site)",
 			description:
-				"A show of my skills and expertise in computer science and development. Built with React, this dynamic portfolio elegantly presents my journey, projects, and capabilities.",
-			logo: "https://cdn.jsdelivr.net/npm/programming-languages-logos/src/html/html.png",
+				"A show of my skills and expertise in computer science and development. Built with React, this dynamic portfolio elegantly presents my journey, projects, and capabilities. This is the current website you are on :)",
+			logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png",
 			linkText: "View Project",
-			link: "https://github.com",
+			link: "https://github.com/smithd36/dreysmith.dev",
+		},
+
+		{
+			title: "Animated Portfolio (previous portfolio site)",
+			description:
+				"A different version of my portfolio, of which I still like to present and use occasionally. Built with SCSS and React, this dynamic portfolio can be found here: ",
+			logo: "https://github.com/smithd36/Python-SQLite-CLI-DBMS/assets/90289165/554168bf-d96d-4123-82ea-e363f962129f",
+			linkText: "View Project",
+			link: "https://animated-portfolio-lemon.vercel.app/",
 		},
 	],
 };

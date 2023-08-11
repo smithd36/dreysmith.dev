@@ -5,6 +5,8 @@
 	border-radius: 20px;
 	opacity: 0.8;
 	height: 100%;
+	transition: background-color 0.3s ease-in-out;
+	overflow: scroll;
 }
 
 .project a {
@@ -27,7 +29,7 @@
 }
 
 .project-logo {
-	width: 30px;
+	width: 100%;
 }
 
 .project-logo img {

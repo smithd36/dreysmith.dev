@@ -54,7 +54,7 @@ const About = () => {
 								<div className="about-image-container">
 									<div className="about-image-wrapper">
 										<img
-											src="about.jpg"
+											src="https://github.com/smithd36/Python-SQLite-CLI-DBMS/assets/90289165/124b72b0-c2e7-437a-9aea-1c196192fb56"
 											alt="about"
 											className="about-image"
 										/>

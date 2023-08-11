@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Helmet } from "react-helmet";
+import { Player } from '@lottiefiles/react-lottie-player';
 
 import { faMailBulk } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -14,12 +15,12 @@ import Footer from "../components/common/footer";
 import NavBar from "../components/common/navBar";
 import Article from "../components/homepage/article";
 import Works from "../components/homepage/works";
+import Education from "../components/homepage/education";
 import AllProjects from "../components/projects/allProjects";
 
 import INFO from "../data/user";
 import SEO from "../data/seo";
 import myArticles from "../data/articles";
-
 import "./styles/homepage.css";
 
 const Homepage = () => {
@@ -30,6 +31,16 @@ const Homepage = () => {
 	useEffect(() => {
 		window.scrollTo(0, 0);
 	}, []);
+
+	// Lottie Animation
+	const defaultOptions = {
+		loop: true,
+		autoplay: true,
+		animationData: "https://assets-v2.lottiefiles.com/a/d64d478c-1175-11ee-86aa-c374d75f5741/zCAP6lGSbS.json",
+		rendererSettings: {
+		  preserveAspectRatio: "xMidYMid slice"
+		}
+	  };
 
 	useEffect(() => {
 		const handleScroll = () => {
@@ -102,11 +113,16 @@ const Homepage = () => {
 							<div className="homepage-first-area-right-side">
 								<div className="homepage-image-container">
 									<div className="homepage-image-wrapper">
-										<img
-											src="homepage.jpg"
-											alt="about"
+										<Player
+											autoplay
+											loop
+											src="https://assets-v2.lottiefiles.com/a/d64d478c-1175-11ee-86aa-c374d75f5741/zCAP6lGSbS.json"
 											className="homepage-image"
-										/>
+											style={{
+												height: "100%",
+												width: "100%",
+											}}
+										></Player>
 									</div>
 								</div>
 							</div>
@@ -178,6 +194,7 @@ const Homepage = () => {
 							</div>
 
 							<div className="homepage-works">
+								<Education />
 								<Works />
 							</div>
 						</div>
