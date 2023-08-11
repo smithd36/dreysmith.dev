@@ -28,7 +28,7 @@ const Education = () => {
 						<div className="work">
 							<img
 								src="https://images.credly.com/images/63482325-a0d6-4f64-ae75-f5f33922c7d0/CompTIA_A_2Bce.png"
-								alt="codeacademy"
+								alt="CompTIA"
 								className="work-image"
 							/>
 							<div className="work-title">CompTIA Certification</div>
@@ -36,6 +36,17 @@ const Education = () => {
 								A+ Certification -> Pursuing Network+
 							</div>
 							<div className="work-duration">2023</div>
+						</div>
+						<div className="work">
+							<img
+								src="https://images.crunchbase.com/image/upload/c_lpad,f_auto,q_auto:eco,dpr_1/ikqra03zdnggljdu5vv0"
+								alt="freecodecamp"
+								className="work-image"
+							/>
+							<div className="work-title">FCC</div>
+							<div className="work-subtitle">
+								All Certifications (IT Certs, ML, WebDev, Data Science) - 300+ Hours
+							</div>
 						</div>
 					</div>
 				}
