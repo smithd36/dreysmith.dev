@@ -13,9 +13,9 @@ const INFO = {
 	},
 
 	homepage: {
-		title: "Full stack web and mobile app developer, IT Specialist, and Computer Science student",
+		title: "Computer Science student and ML/AI Enthusiast in love with the Full Stack.",
 		description:
-			"Hi! I am Drey. Welcome to my corner of the web! I am primarily working with the MERN stack currently, and I have expertise in HTML/CSS, JavaScript, Python and Java. I am experienced in  building scalable, secure and reliable web and mobile applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
+			"Hi! I am Drey. Welcome to my corner of the web! I enjoy working with all sorts of tech stacks, and I have expertise in HTML/CSS, JavaScript, Python and Java. I am experienced in  building scalable, secure and reliable web and mobile applications using various frameworks and technologies. I enjoy solving complex problems and learning new skills. I am passionate about creating high-quality code that follows best practices and industry standards. I am always looking for new challenges and opportunities to grow as a developer.",
 	},
 
 	about: {
